@@ -1,0 +1,14 @@
+#vidHolderBox {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#youtubevideo {
+
+    width: 1000px;
+    height: 480px;
+
+}

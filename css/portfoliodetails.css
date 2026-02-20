@@ -1,0 +1,301 @@
+/* Section Styles: */
+
+#topbar {
+
+    background: #106eea;
+    height: 40px;
+    font-size: 16px;
+    transition: all 0.5s;
+    padding: 0;
+
+}
+
+.exampleText {
+
+    text-decoration: none;
+
+}
+
+.twitterIcon {
+
+    color: rgba(255, 255, 255, 0.765);
+
+}
+
+.facebookIcon {
+
+    color: rgba(255, 255, 255, 0.765);
+
+}
+
+.instagramIcon {
+
+    color: rgba(255, 255, 255, 0.765);
+
+}
+
+.linkedinIcon {
+
+    color: rgba(255, 255, 255, 0.765);
+
+}
+
+.twitterIcon:hover {
+
+    color: white;
+    cursor: pointer;
+
+}
+
+.facebookIcon:hover {
+
+    color: white;
+    cursor: pointer;
+
+}
+
+.instagramIcon:hover {
+
+    color: white;
+    cursor: pointer;
+
+}
+
+.linkedinIcon:hover {
+
+    color: white;
+    cursor: pointer;
+
+}
+
+/* NavBar Styles: */
+
+.Logo {
+
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+
+}
+
+.dropdown:hover .dropdown-menu {
+
+    display: block;
+
+}
+
+#offcanvasNavbar {
+
+    background-color: #00796b;
+
+}
+
+.nav-link {
+
+    position: relative;
+    color: ;
+    text-decoration: none;
+
+}
+
+.nav-link::after {
+
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: blue;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+
+}
+
+.nav-link:hover::after {
+
+    width: 100%;
+    
+}
+
+
+#link:hover {
+
+    color: blue;
+
+}
+
+#dropdown-li {
+
+    color: black;
+    font-family: Open Sans, sans-serif;
+
+}
+
+#dropdown-li:hover {
+
+    color: blue;
+
+}
+
+#deepdropdownlink {
+
+    color: black;
+    font-family: Open Sans, sans-serif;
+
+}
+
+#deepdropdownlink:hover {
+
+    color: blue;
+
+}
+.btn-close {
+
+    color: white;
+
+}
+
+.navlink {
+
+    text-decoration: none;
+
+}
+
+#nav-dropdown {
+
+    position: relative;
+    color: white;
+    text-decoration: none;
+
+}
+
+#link {
+
+    color: black;
+    font-family: Open Sans, sans-serif;
+
+}
+
+/* Body Styles: */
+
+.sectorHeader {
+
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+
+}
+
+.subLink {
+
+    font-size: 14px;
+
+}
+
+#subLinksSector {
+
+    background-color: #f1f6fe;
+
+}
+
+#secondsubLinksSector {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+/* Footer Styles: */
+
+#lastFormHolder {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f9fe;
+
+}
+
+.formholder {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialMediaContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.innerMedia {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+
+}
+
+.Phone {
+
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.Email {
+
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.lastFooterLink {
+
+    text-decoration: none;
+
+}
+
+.lastFooterParaTwo {
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+
+}
+
+#lastFooter {
+
+    background-color: #f1f6fe;
+
+}
+
+.firstFooterHeader {
+
+    font-size: 16px;
+
+}
+
+.firstFooterPara {
+
+    font-size: 14px;
+
+}
+
+.firstFooterLI {
+
+    font-size: 14px;
+
+}
+
+.firstfooterOL {
+
+    list-style-type: none;
+
+}
